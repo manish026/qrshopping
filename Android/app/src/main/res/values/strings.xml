@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QRShopping</string>
+    <string name="baseURL">http://192.168.0.101/shopping/</string>
+    <string name="loginTitle">Login</string>
+
+    <string name="fnameHint">Fullname</string>
+    <string name="lnameHint">Lastname</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="cpasswordHint">Confirm Password</string>
+    <string name="uidHint">Mobile no.</string>
+    <string name="licenseHint">Enter D.O.B</string>
+    <string name="addressHint">Address</string>
+
+
+    <!--Titles-->
+
+    <string name="shopdashboard">Vendor Dashboard</string>
+    <string name="customerdashboard">Customer Dashboard</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="payment">Confirm Products</string>
+    <string name="addproduct">Add Product</string>
+    <string name="paymentdone">Payment Sucessful</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.qrshopping.TotalActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:scrollbars="vertical"
+
+        />
+
+    <TextView
+        android:id="@+id/finalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You will be charge"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:text="BUY"/>
+
+</RelativeLayout>
